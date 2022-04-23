@@ -1,0 +1,20 @@
+
+.vs/
+
+.sln.docstates
+.userprefs
+.user
+.suo
+
+**/*.Droid/**/[Rr]esource.[Dd]esigner.cs
+**/*.Android/**/[Rr]esource.[Dd]esigner.cs
+**/Android/**/[Rr]esource.[Dd]esigner.cs
+**/Droid/**/[Rr]esource.[Dd]esigner.cs
+
+Components/
+
+# NuGet Packages Directory
+packages/
+*.nuget.targets
+*.lock.json
+*.nuget.props

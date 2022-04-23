@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local2="clr-namespace:EjercicioPageDesign"
+             x:Class="EjercicioPageDesign.EmbeddedImage">
+    <ContentPage.Content>
+        <ScrollView>
+
+            <StackLayout x:Name="stack">
+                <Label Text="EmbeddedImages!!" FontSize="Medium"
+                       VerticalOptions="CenterAndExpand"
+                       HorizontalOptions="CenterAndExpand"
+                    />
+                <Image  VerticalOptions="StartAndExpand" Source="{local2:ImageResource
+                    EjercicioPageDesign.reflexin-respeto-1-728.jpg}"/>
+            </StackLayout>
+            
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

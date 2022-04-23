@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EjercicioPageDesign.LocalImage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="OrangeRed" Padding="20" Margin="5"  >
+                <Label Text="Local Image!!!" HorizontalOptions="Center" FontSize="Medium"/>
+            </Frame>
+
+            <Image Source="fondo_hd.jpg"/>
+            <Image Source="arbol.gif"/>
+            
+            
+        </StackLayout>
+
+            
+    </ContentPage.Content>
+</ContentPage>
